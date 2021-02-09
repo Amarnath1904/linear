@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    color: wheat;
+    list-style-type: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+a:hover{ 
+    text-shadow: 0px 0px 16px white;
+}
+
+h1 { 
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif; 
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 72px;
+    text-transform: uppercase;
+ }
+h2 { 
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    font-weight: 800; 
+    line-height: 36px; 
+}
+p { 
+    color: #f8f8f8; 
+    font-family: 'Raleway',sans-serif; 
+    font-size: 18px; 
+    font-weight: 500; 
+    line-height: 32px; 
+    margin: 0 0 24px; 
+}
+.WelcomeBtn{
+    background: none;
+    height: 66px;
+    width: 120px;
+    font-size: large;
+    border: 1px solid white;
+}
+.WelcomeBtn:hover{
+    box-shadow: 1px 1px 16px rgb(255, 255, 255);
+}
+
+#WelcomeVideo{
+    object-fit: cover;
+}
+#NavigationBar{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    z-index: 100;
+}
+#NevIcons{
+    width: 120px;
+    height: 120px;
+}
+#RightNev{
+    width: 40%;
+}
+#linksContaner{
+    display: flex;
+}
+#linksContaner li{
+    padding: 2%;
+    font-size: 28px;
+}
+
+#WelcomeText{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
