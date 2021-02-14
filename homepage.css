@@ -2,22 +2,26 @@
     padding: 0%;
     margin: 0%;
     text-decoration: none;
-    color: wheat;
+    color: white;
     list-style-type: none;
     font-family: 'Source Sans Pro', sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 body{
     background-color: black;
     overflow-x: hidden;
 }
+
 a:hover{ 
-    text-shadow: 0px 0px 16px white;
+    text-shadow: 0px 0px 16px rgb(255, 255, 255);  
 }
 
 h1 { 
     color: #ffffff;
     font-family: 'Raleway',sans-serif; 
-    font-size: 62px;
+    font-size: 32px;
     font-weight: 800;
     line-height: 72px;
     text-transform: uppercase;
@@ -25,7 +29,7 @@ h1 {
 h2 { 
     color: #ffffff;
     font-family: 'Raleway',sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 800; 
     line-height: 36px; 
 }
@@ -37,19 +41,27 @@ p {
     line-height: 32px; 
     margin: 0 0 24px; 
 }
-.WelcomeBtn{
+.CustomeBtn{
     background: none;
     height: 66px;
     width: 120px;
     font-size: large;
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
 }
-.WelcomeBtn:hover{
+.CustomeBtn:hover{
     box-shadow: 1px 1px 16px rgb(255, 255, 255);
 }
-
+.SvgSize{
+    position: relative;
+    height: 520px;
+    width: 520px;
+    animation-name: up_idea;
+    animation-duration: 1.5s;
+}
 #WelcomeVideo{
     object-fit: cover;
+    width: 100%;
+    height: 100vh;
 }
 #NavigationBar{
     position: absolute;
@@ -59,10 +71,12 @@ p {
     justify-content: space-between;
     width: 90%;
     z-index: 100;
+    position: fixed;
 }
 #NevIcons{
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
+    font-size: small;
 }
 #RightNev{
     width: 40%;
@@ -85,10 +99,57 @@ p {
     align-items: center;
     justify-content: center;
 }
+#FistScrol{
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(255, 0, 200), rgb(68, 0, 255));
+
+}
+@keyframes up_idea{
+    from {
+        top: 17%;
+        opacity: 0%;
+    }
+    to {top: 0%;}
+    
+}
+#IdeaSvg{
+    position: relative;
+    height: 620px;
+    width: 620px;
+    animation-name: up_idea;
+    animation-duration: 1.5s;
+}
+#InfluencePara{
+    position: relative;
+    animation-name: up_idea;
+    animation-duration: 1.5s;
+    margin-left: 5%;
+}
 
 
 
+#Secondscroll{
+    height: 110vh;
+    background-image: linear-gradient(to right, rgb(255, 0, 0),rgb(255, 0, 170));
+    display: flex;
+    align-items: center;
+}
 
+#Secondscroll_svg{
+    width: 620px;
+    height: 320px;
+}
+#Skils{
+    height: 100vh;
+    background-image: linear-gradient(to left,rgb(51, 255, 0),rgb(255, 230, 0));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
-
-
+#groupSVG{
+    height: 220px;
+    width: 220px;
+}
