@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+
+
 *{
     padding: 0%;
     margin: 0%;
@@ -79,7 +83,7 @@ p {
     font-size: small;
 }
 #RightNev{
-    width: 40%;
+    width: 45%;
 }
 #linksContaner{
     display: flex;
@@ -152,4 +156,73 @@ p {
 #groupSVG{
     height: 220px;
     width: 220px;
+}
+
+
+
+#Startup{
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(0, 255, 213),rgb(17, 0, 255));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#Contact_form{
+    background-image: linear-gradient(to left, rgb(212, 0, 255),rgb(192, 201, 255));
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#ContactDetale{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    height: 500px;
+    padding: 2%;
+    border-radius: 30px;
+    box-shadow: 10px 10px black;
+
+}
+#ContactDetale input{
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    border-bottom: 2px solid #000;
+    padding: 2%;
+    font-size: large;
+    font-family: 'Ranchers', cursive;
+}
+#ContactDetale textarea{
+    background: none;
+    border: 2px solid black;
+    padding: 2%;
+    font-family: 'Ranchers', cursive;
+    resize: none;
+    outline: none;
+    font-size: large;
+}
+
+
+#ContactDetale input::placeholder{
+    color: #000;
+    font-size: large;
+}   
+#submitBtn{
+    width: 20%;
+    height: 40px;
+    background: none;
+    color: #000;
+    border-radius: 30px;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+}
+#submitBtn:hover{
+    box-shadow: -5px -5px black;
+    transition: 0.5s;
 }
