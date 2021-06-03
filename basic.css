@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #23023d;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to top, rgb(255, 0, 200), rgb(68, 0, 255));
+    border-radius: 30px;
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+body{
+
+    overflow-x: hidden;
+}
+
+a:hover{ 
+    text-shadow: 0px 0px 16px rgb(255, 255, 255);  
+}
+
+h1 { 
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif; 
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 72px;
+ }
+h2 { 
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 15px;
+    font-weight: 800; 
+    line-height: 36px; 
+}
+p { 
+    color: #f8f8f8; 
+    font-family: 'Raleway',sans-serif; 
+    font-size: 18px; 
+    font-weight: 500; 
+    line-height: 32px; 
+    margin: 0 0 24px; 
+}
+.CustomeBtn{
+    background: none;
+    height: 66px;
+    width: 120px;
+    font-size: large;
+    border: 1px solid rgb(255, 255, 255);
+}
+.CustomeBtn:hover{
+    box-shadow: 1px 1px 16px rgb(255, 255, 255);
+}
+.CustomeBtn:active{
+    box-shadow: 1px 1px 16px rgb(255, 255, 255);
+    background: white;
+    color: black;
+}
+.SvgSize{
+    height: 520px;
+    width: 520px;
+}
+.glow{
+    text-shadow: 1px 1px 3px white;
+}
+.blackFont{
+    color: black;
+}
+
+.BDS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+#LogoTopnev{
+    width: 90px;
+    height: 90px;
+}
+
+#TopNevbar{
+    height: 15vh;
+    /* border: 1px solid red; */
+    padding: 1%;
+    display: flex;
+    background-color: rgb(26, 26, 26);
+    justify-content: space-between;
+    width: 100%;
+}
+#AllLink{
+    width: 60%;
+    /* border: 1px solid blue; */
+}
+#AllLink ul{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#AllLink ul li{
+    padding: 2%;
+    font-size: x-large;
+}
+#SerchArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+    width: 30%;
+    justify-content: space-around;
+}
+#SerchArea input{
+    background: none;
+    outline: none;
+    padding: 2%;
+    border: 0px solid rgb(26, 26, 26);
+    border-bottom: 1px solid chartreuse;
+    width: 60%;
+    color: #f8f8f8; 
+    font-family: 'Raleway',sans-serif; 
+    font-size: 18px; 
+    padding-left: 30px;
+    font-weight: 600; 
+}
+#SerchArea input:hover{
+    transition: 1s;
+    border: 1px solid chartreuse;
+    border-radius: 30px;
+    box-shadow: 1px 1px 16px rgb(158, 255, 128);
+}
+#SerchBtn{
+    width: 20%;
+    height: 60%;
+    border-radius: 30px;
+    outline: none;
+}

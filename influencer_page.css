@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+#influencer_for_why{
+    background: url("IMG/influncer_background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}   
+#big_o{
+    height: 640px;
+    width: 640px;
+    border-radius: 60%;
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 3px 7px 10px black;
+}
+#learn_more{
+    background: none;
+    height: 66px;
+    width: 120px;
+    font-size: large;
+    border: 1px solid rgb(0, 0, 0);
+}
+#learn_more:hover{
+    box-shadow: 1px 1px 16px rgb(0, 0, 0);
+}
+#learn_more:active{
+    background-color: black;
+    box-shadow: 1px 1px 16px rgb(0, 0, 0);
+    outline: none;
+    color: white;
+}
+#form{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+#image{
+    width: 500px;
+    height: 320px;
+}
+
+#contac_form{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    border: 1px solid white;
+    padding: 3%;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 1px 1px 16px rgb(245, 245, 245) ;
+}
+input{
+    font-family: 'Inter';
+    margin: 2%;
+    background: none;
+    border: none;
+    height: 27px;
+    width: 300px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+textarea{
+    font-family: 'Inter';
+    background: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    height: 201px;
+    width: 292px;
+    padding: 3px;
+    color: #f8f8f8;
+}
+#image_contaner{
+    display: flex;
+    justify-content: start;
+}
+
+#love_with_us{
+    height: 100vh;
+    background-image: linear-gradient(to right,rgb(250, 48, 48),rgb(255, 0, 242));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}

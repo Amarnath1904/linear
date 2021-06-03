@@ -1,0 +1,41 @@
+#CreatFreeWebside{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgb(0, 0, 0)),url("IMG/CreatWebsideForME.jpg");
+    /* background-image: url("/IMG/CreatWebsideForME.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+#CreatWebsidePara{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#AppDevlopmentSection{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+#blackBtn{
+    background: none;
+    height: 66px;
+    width: 120px;
+    font-size: large;
+    border: 1px solid rgb(0, 0, 0);
+}
+#blackBtn:hover{
+    box-shadow: 1px 1px 16px rgb(0, 0, 0);
+}
+#DataEntrySection{
+    background-image: linear-gradient(to right, rgb(174, 0, 255),rgb(0, 81, 255));
+}
