@@ -44,7 +44,6 @@
     width: 500px;
     height: 320px;
 }
-
 #contac_form{
     display:  flex;
     flex-direction: column;
@@ -81,7 +80,6 @@ textarea{
     display: flex;
     justify-content: start;
 }
-
 #love_with_us{
     height: 100vh;
     background-image: linear-gradient(to right,rgb(250, 48, 48),rgb(255, 0, 242));
