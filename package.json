@@ -1,0 +1,22 @@
+{
+  "name": "liner",
+  "version": "0.0.1",
+  "description": "radha radha it's a webside for webdev and IT solution company",
+  "main": "main.js",
+  "scripts": {
+    "test": "run ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amarnath1904/linear.git"
+  },
+  "author": "amarnath with krishn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amarnath1904/linear/issues"
+  },
+  "homepage": "https://github.com/Amarnath1904/linear#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
